@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="keywords" content="Transfers - Private Transport and Car Hire HTML Template" />
+    <meta name="description" content="Transfers - Private Transport and Car Hire HTML Template">
+    <meta name="author" content="themeenergy.com">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+
+    <title>THEMELOCK.COM - About us</title>
+
+    <link rel="stylesheet" href="~/content/theme-pink.css" />
+    <link rel="stylesheet" href="~/content/style.css" />
+    <link rel="stylesheet" href="~/content/animate.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrap">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="../../Home/index" title="Transfers"><img src="../../Content/images/transfers.jpg" alt="Transfers" /></a>
+            </div>
+            <!-- //Logo -->
+            <!-- Main Nav -->
+            <nav role="navigation" class="main-nav">
+                <ul>
+                    <li><a href="../../Home/index" title="">Home</a></li>
+                   @* <li>
+                        <a href="../../Home/Destinations" title="Destinations">Destinations</a>
+                        <ul>
+                            <li><a href="../../Home/Destination_single" title="Single destination">Single destination</a></li>
+                            <li><a href="../../Home/Destination_micro" title="Micro destination">Micro destination</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../../Home/Tailor_Made" title="Tailor made">Tailor made</a></li>
+                    <li>
+                        <a href="../../Home/Blog" title="Blog">Blog</a>
+                        <ul>
+                            <li><a href="../../Home/Blog" title="Post">Blog list</a></li>
+                            <li><a href="../../Home/Blog2" title="Post">Blog grid</a></li>
+                            <li><a href="../../Home/BlogSingle" title="Post">Post</a></li>
+                        </ul>
+                    </li>*@
+                    <li><a href="../../Home/Contact" title="Contact">Contact</a></li>
+                    <li class="active">
+                        <a href="#" title="Pages">Pages</a>
+                        <div>
+                            <div class="one-fourth">
+                                <h2>Common</h2>
+                                <ul>
+                                    <li><a href="../../Home/left_sidebar_page" title="Left sidebar page">Left sidebar page</a></li>
+                                    <li><a href="../../Home/right_sidebar_page" title="Right sidebar page">Right sidebar page</a></li>
+                                    <li><a href="../../Home/both_sidebar_page" title="Both sidebars page">Both sidebars page</a></li>
+                                    <li><a href="../../Home/full_width_page" title="Full width page">Full width page</a></li>
+                                </ul>
+                            </div>
+                            <div class="one-fourth">
+                                <h2>Booking</h2>
+                                <ul>
+                                    <li><a href="../../Home/Search" title="Search results page">Search results page</a></li>
+                                    <li><a href="../../Home/booking_step1" title="Booking step 1">Booking step 1</a></li>
+                                    <li><a href="../../Home/Booking_step2" title="Booking step 2">Booking step 2</a></li>
+                                    <li><a href="../../Home/Booking_step3" title="Booking step 3">Booking step 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="one-fourth">
+                                <h2>Corporate</h2>
+                                <ul>
+                                    <li><a href="../../Home/about" title="About u">About us</a></li>
+                                    <li><a href="../../Home/Services" title="Services">Services</a></li>
+                                    <li><a href="../../Home/faq" title="Faq">Faq</a></li>
+                                    <li><a href="../../Home/Contact" title="Contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="one-fourth">
+                                <h2>Special</h2>
+                                <ul>
+                                    <li><a href="../../Home/login" title="login">Login</a></li>
+                                    <li><a href="../../Home/register" title="Register">Register</a></li>
+                                    <li><a href="../../Home/error" title="404 error">404 error</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="http://themeforest.net/user/themeenergy/portfolio" title="Purchase">Purchase</a></li>
+                </ul>
+            </nav>
+            <!-- //Main Nav -->
+        </div>
+    </header>
+    <!-- //Header -->
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+
+    <!-- Footer -->
+    <footer class="footer black" role="contentinfo">
+        <div class="wrap">
+            <div class="row">
+                <!-- Column -->
+                <article class="one-half">
+                    <h6>About us</h6>
+                    <p>Transfers is a transport reservation system in whire you can hire transport for any purpose like trip or wedding purpose</p>
+                </article>
+                <!-- //Column -->
+                <!-- Column -->
+                <article class="one-fourth">
+                    <h6>Need help?</h6>
+                    <p>Contact us via phone or email:</p>
+                    <p class="contact-data"><span class="ico phone"></span> 03244371234</p>
+                    <p class="contact-data"><span class="ico email"></span> <a href="mailto:.com">aniqabutt786@gmail.com</a></p>
+                </article>
+                <!-- //Column -->
+                <!-- Column -->
+                <article class="one-fourth">
+                    <h6>Follow us</h6>
+                    <ul class="social">
+                        <li class="facebook"><a href="http://facebook.com/QuanticaLabs" title="facebook">facebook</a></li>
+                        <li class="twitter"><a href="https://twitter.com/QuanticaLabs" title="twitter">twitter</a></li>
+                        @*<li class="gplus"><a href="#" title="gplus">google plus</a></li>
+                        <li class="linkedin"><a href="#" title="linkedin">linkedin</a></li>
+                        <li class="vimeo"><a href="#" title="vimeo">vimeo</a></li>
+                        <li class="pinterest"><a href="#" title="pinterest">pinterest</a></li>*@
+                    </ul>
+                </article>
+                <!-- //Column -->
+            </div>
+
+            <div class="copy">
+                <p>Copyright 2014, Themeenergy. All rights reserved. </p>
+
+                <nav role="navigation" class="foot-nav">
+                    <ul>
+                        <li><a href="#" title="Home">Home</a></li>
+                        <li><a href="#" title="Blog">Blog</a></li>
+                        <li><a href="#" title="About us">About us</a></li>
+                        <li><a href="#" title="Contact us">Contact us</a></li>
+                        <li><a href="#" title="Terms of use">Terms of use</a></li>
+                        <li><a href="#" title="Help">Help</a></li>
+                        @*<li><a href="#" title="For partners">For partners</a></li>*@
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- //Footer -->
+    @*<!-- Preloader -->
+    <div class="preloader">
+        <div id="followingBallsG">
+            <div id="followingBallsG_1" class="followingBallsG"></div>
+            <div id="followingBallsG_2" class="followingBallsG"></div>
+            <div id="followingBallsG_3" class="followingBallsG"></div>
+            <div id="followingBallsG_4" class="followingBallsG"></div>
+        </div>
+    </div>
+    <!-- //Preloader -->*@
+    jQuery
+    <script src="../../Scripts/jquery"></script>
+    <script src="../../Scripts/jquery.uniform"></script>
+    <script src="../../Scripts/jquery.slicknav"></script>
+    <script src="../../Scripts/wow"></script>
+    <script src="../../Scripts/scripts"></script>
+
+</body>
+</html>
